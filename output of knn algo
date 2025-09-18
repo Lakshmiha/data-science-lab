@@ -1,0 +1,7 @@
+Predicted Food Type of Tomato:
+> print(pred)
+[1] fruit
+Levels: fruit protein vegetable
+> print(pred)
+[1] fruit
+Levels: fruit protein vegetable
