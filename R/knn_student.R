@@ -18,3 +18,4 @@ pred <- knn(train = survey1, test = student, cl = survey$Z, k = 3)
 
 cat("Predicted Classification of Student:\n")
 print(pred)
+
