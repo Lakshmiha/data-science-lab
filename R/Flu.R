@@ -14,4 +14,5 @@ print(classifier_cl)
 # Predicting on test data
 symptoms_test_pred <- predict(classifier_cl, symptoms_test)
 cat("Prediction of Flu:\n")
+
 print(symptoms_test_pred)
