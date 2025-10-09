@@ -12,4 +12,5 @@ wbcd_train_labels=wbcd[1:469,2]
 wbcd_test_labels=wbcd[470:569,2]
 wbcd_test_pred=knn(wbcd_train,wbcd_test,wbcd_train_labels,21)
 print(wbcd_test_pred)
+
 CrossTable(x=wbcd_test_labels,y=wbcd_test_pred,prop.chisq=FALSE)
