@@ -15,3 +15,4 @@ pred <- knn(train = food1, test = tomato1, cl = food$FoodType, k = k)
 
 cat("Predicted Food Type of Tomato:\n")
 print(pred)
+
