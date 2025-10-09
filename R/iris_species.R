@@ -20,9 +20,10 @@ iris_train_labels = iris1[,5]
 iris_test_labels = iris2[,5]
 classifier_cl <- naiveBayes(iris_train,iris_train_labels )
 print(classifier_cl)
-# Predicting on test data’
+# Predicting on test dataâ€™
 iris_test_pred <- predict(classifier_cl, iris_test)
 print(iris_test_pred)
 # Analysis of Prediction
 # prop.chisq=FALSE will remove unnecessary chi square values
+
 CrossTable(iris_test_labels, iris_test_pred, prop.chisq=FALSE)
