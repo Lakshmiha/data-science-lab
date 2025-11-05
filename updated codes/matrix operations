@@ -21,3 +21,7 @@ print("Matrix 1 - Matrix 2:\n", np.subtract(matrix1, matrix2))
 print("Matrix 1 * Matrix 2:\n", np.matmul(matrix1, matrix2))
 print("2 * Matrix 1:\n", 2 * matrix1)
 print("Transpose of Matrix 1:\n", np.transpose(matrix1))
+
+
+IMPORTATNT!!!!
+when run we should input the values first with a space in each row...
